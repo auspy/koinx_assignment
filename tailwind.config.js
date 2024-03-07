@@ -26,6 +26,7 @@ export const colors = {
   textHero: "#0B1426",
   border: "#dee1e6",
   borderBtnRow: "#D3E0E6",
+  borderCard: "#e3e3e3",
 
   green: "#0fba83",
   textGreen: "#14b079",

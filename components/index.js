@@ -24,3 +24,5 @@ export { default as AlreadyHoldingItem } from "@/components/about/AlreadyHolding
 export { default as ButtonSecondary } from "@/components/buttons/ButtonSecondary";
 export { default as Trending } from "@/components/trending/Trending";
 export { default as TrendingItem } from "@/components/trending/TrendingItem";
+export { default as MayLike } from "@/components/maylike/MayLike";
+export { default as MayLikeItem } from "@/components/maylike/MayLikeItem";

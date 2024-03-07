@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
         <Header />
         <div className="container">
           <Breadcrum />
-          {children}
         </div>
+        {children}
       </body>
     </html>
   );

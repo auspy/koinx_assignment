@@ -9,7 +9,10 @@ const Trending = async () => {
         {Array.isArray(coins) &&
           coins.length > 0 &&
           coins.map((coin, index) => {
-            console.log(coin.data.price_change_percentage_24h.usd);
+            if (index > 2) {
+              return null;
+            }
+            // console.log(coin.data.price_change_percentage_24h.usd);
             return <TrendingItem key={index} {...coin} />;
           })}
       </SectionContainer>
