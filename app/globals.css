@@ -24,6 +24,8 @@
   --headingToken: #202020;
   --textToken: #3e424a;
   --subHHero: #5d667b;
+  --textHero: #0b1426;
+  --border: #dee1e6;
 
   --green: #0fba83;
   --textGreen: #14b079;
@@ -59,4 +61,48 @@ body {
   #header {
     padding-inline: 24px;
   }
+}
+
+/* TEXT */
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+}
+h1 {
+  font-size: 28px;
+  line-height: 38.4px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* LINES */
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: var(--border);
 }

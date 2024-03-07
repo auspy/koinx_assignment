@@ -5,3 +5,8 @@ export { default as Navigation } from "@/components/header/Navigation";
 export { default as ButtonMenu } from "@/components/buttons/ButtonMenu";
 export { default as NavItems } from "@/components/header/NavItems";
 export { default as Breadcrum } from "@/components/Breadcrum";
+export { default as CoinGraph } from "@/components/coingraph/CoinGraph";
+export { default as TradingViewWidget } from "@/components/coingraph/TradingViewWidget";
+export { default as CurrentPrice } from "@/components/coingraph/CurrentPrice";
+export { default as ChangeIndicator } from "@/components/ChangeIndicator";
+export { default as RankBox } from "@/components/coingraph/RankBox";
