@@ -39,3 +39,12 @@
   --gradOrange: linear-gradient(135.73deg, #ff9865 0%, #ef3031 110.55%);
   --orange: #faa002;
 }
+
+body {
+  background-color: var(--bg);
+}
+
+.container {
+  max-width: 1440px;
+  padding-inline: 56px;
+}
