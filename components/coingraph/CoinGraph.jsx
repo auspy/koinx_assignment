@@ -14,9 +14,9 @@ const CoinGraph = ({ coin = "bitcoin" }) => {
         <div className="hidden md:flex">
           <CoinGraphHeading coin={coin} />
         </div>
-        {/* <CurrentPrice coin={coin} /> */}
+        <CurrentPrice coin={coin} />
         <hr className="my-7" />
-        {/* <TradingViewWidget /> */}
+        <TradingViewWidget />
       </div>
     </>
   );

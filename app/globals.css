@@ -29,6 +29,7 @@
   --border: #dee1e6;
   --borderBtnRow: #d3e0e6;
   --borderCard: #e3e3e3;
+  --textPerform:#111827
 
   --green: #0fba83;
   --textGreen: #14b079;
@@ -44,6 +45,9 @@
 
   --gradOrange: linear-gradient(135.73deg, #ff9865 0%, #ef3031 110.55%);
   --orange: #faa002;
+
+  --grad:linear-gradient(90deg, #FF4949 0%, #FF4E11 15.34%, #FC870A 30.45%, #FFAF11 48.68%, #C2CB21 62.75%, #11EB68 100.03%);
+
 }
 
 body {

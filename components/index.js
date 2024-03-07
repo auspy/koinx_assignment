@@ -28,3 +28,6 @@ export { default as MayLike } from "@/components/maylike/MayLike";
 export { default as MayLikeItem } from "@/components/maylike/MayLikeItem";
 export { default as Team } from "@/components/team/Team";
 export { default as TeamMember } from "@/components/team/TeamMember";
+export { default as Tokenomics } from "@/components/Tokenomics";
+export { default as FundamentalItem } from "@/components/performance/FundamentalItem";
+export { default as TodayLowHigh } from "@/components/performance/TodayLowHigh";
