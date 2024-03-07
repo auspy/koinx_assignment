@@ -1,11 +1,14 @@
-import { CoinGraph } from "@/components";
+import { ButtonRow, CoinGraph, Performance, Sentiment } from "@/components";
 
-const page = ({ params }) => {
+const page = ({ params, searchParams }) => {
   const crypto = params.crypto;
   return (
-    <>
-      <CoinGraph />
-    </>
+    <div className="flex flex-col gap-5 pb-10">
+      <CoinGraph coin={crypto} />
+      <ButtonRow searchParams={searchParams} />
+      <Performance />
+      <Sentiment />
+    </div>
   );
 };
 

@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
-const colors = {
+export const colors = {
   primary: "#0052fe",
   blueIcon: "#0082ff",
   highlight: "#0141cf",
-  blueBg: "##e8f4fd",
+  blueBg: "#e8f4fd",
   blueBgHero: "#e2ecfe",
   gradBlue: "linear-gradient(81.62deg, #2870ea 8.72%, #1b4aef 85.01%)",
   blueIconMenu: "#0B182F",
@@ -16,6 +16,7 @@ const colors = {
   textLight: "#788f9b",
   subH: "#768396",
   infoIcon: "#7c7e8c",
+  infoIconLight: "#abb9bf",
   grey: "#c7c8ce",
   headingSenti: "#191c1f",
   textSenti: "#3e5765",
@@ -24,6 +25,7 @@ const colors = {
   subHHero: "#5d667b",
   textHero: "#0B1426",
   border: "#dee1e6",
+  borderBtnRow: "#D3E0E6",
 
   green: "#0fba83",
   textGreen: "#14b079",
