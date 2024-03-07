@@ -14,7 +14,7 @@ const CurrentPrice = async ({ coin }) => {
         {price.usd && <h1 className="text-textHero">${price.usd}</h1>}
         {price.inr && <p className="text-textHero">₹{price.inr}</p>}
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 flex-wrap">
         <ChangeIndicator change={price.usd_24h_change} />
         <p className="text-subH text-sm">(24H)</p>
       </div>
