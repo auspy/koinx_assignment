@@ -8,6 +8,16 @@ import { NavItems } from "@/components";
 
 const ButtonMenu = () => {
   const searchParams = useSearchParams();
+  const [isOpen, setIsOpen] = useState(false);
+  const preventScroll = () => {
+    document.body.style.height = "100vh";
+    document.body.style.overflow = "hidden";
+  };
+  const continueScroll = () => {
+    document.body.style.height = "auto";
+    document.body.style.overflowX = "hidden";
+    document.body.style.overflowY = "auto";
+  };
   useEffect(() => {
     if (searchParams.get("menu") === "true") {
       setIsOpen(true);
@@ -15,7 +25,13 @@ const ButtonMenu = () => {
       setIsOpen(false);
     }
   }, [searchParams]);
-  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    if (isOpen) {
+      preventScroll();
+    } else {
+      continueScroll();
+    }
+  }, [isOpen]);
   const href = !isOpen ? "?menu=true" : "?";
   return (
     <>
