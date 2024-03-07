@@ -1,5 +1,6 @@
 import { ButtonHeader, NavItems } from "@/components";
 import ButtonMenu from "../buttons/ButtonMenu";
+import { Suspense } from "react";
 const Navigation = () => {
   return (
     <>
@@ -7,7 +8,9 @@ const Navigation = () => {
         <NavItems />
         <ButtonHeader />
       </div>
-      <ButtonMenu />
+      <Suspense fallback={null}>
+        <ButtonMenu />
+      </Suspense>
     </>
   );
 };
