@@ -9,7 +9,7 @@ const AlreadyHoldingItem = ({ img, heading, className, style }) => {
     >
       <Image src={`/about${img}.png`} height={128} width={128} alt={heading} />
       <div className="flex flex-col gap-4">
-        <h3 className="text-[20px] normal-case text-white leading-7 font-bold">
+        <h3 className="text-[18px] md:text-[20px] normal-case text-white leading-7 font-bold">
           {heading}
         </h3>
         <ButtonSecondary label="Check Now" />

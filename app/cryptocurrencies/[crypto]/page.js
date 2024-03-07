@@ -5,6 +5,7 @@ import {
   MayLike,
   Performance,
   Sentiment,
+  Team,
   Trending,
 } from "@/components";
 
@@ -19,6 +20,7 @@ const page = ({ params, searchParams }) => {
           <Performance />
           <Sentiment />
           <About coin={crypto} />
+          <Team />
         </div>
         <div className="flex flex-shrink-0 flex-col gap-5 lg:w-[427px]">
           <Trending />
