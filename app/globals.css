@@ -53,6 +53,8 @@ body {
 }
 #header {
   padding-inline: 60px;
+  box-shadow: 0px 0px 12px 0px #1026490f;
+  border-bottom: 1px solid #dedfe2;
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -60,6 +62,7 @@ body {
   }
   #header {
     padding-inline: 24px;
+    border-bottom: unset;
   }
 }
 
