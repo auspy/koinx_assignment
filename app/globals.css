@@ -9,6 +9,7 @@
   --blueBg: ##e8f4fd;
   --blueBgHero: #e2ecfe;
   --gradBlue: linear-gradient(81.62deg, #2870ea 8.72%, #1b4aef 85.01%);
+  --blueIconMenu: #0b182f;
 
   --bg: #eff2f5;
   --heading: #0f1629;
@@ -47,4 +48,15 @@ body {
 .container {
   max-width: 1440px;
   padding-inline: 56px;
+}
+#header {
+  padding-inline: 60px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding-inline: 14px;
+  }
+  #header {
+    padding-inline: 24px;
+  }
 }

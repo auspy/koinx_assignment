@@ -2,7 +2,10 @@ import { Logo, Navigation } from "@/components";
 
 const Header = () => {
   return (
-    <div className="h-[80px] flex container mx-1 bg-white items-center justify-between">
+    <div
+      id="header"
+      className="h-[64px] md:h-[80px] flex container bg-white items-center justify-between"
+    >
       <Logo />
       <Navigation />
     </div>

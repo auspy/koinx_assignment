@@ -7,6 +7,7 @@ const colors = {
   blueBg: " ##e8f4fd",
   blueBgHero: " #e2ecfe",
   gradBlue: " linear-gradient(81.62deg, #2870ea 8.72%, #1b4aef 85.01%)",
+  blueIconMenu: "#0B182F",
 
   bg: "#EFF2F5",
   heading: " #0f1629",
