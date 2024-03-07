@@ -26,3 +26,5 @@ export { default as Trending } from "@/components/trending/Trending";
 export { default as TrendingItem } from "@/components/trending/TrendingItem";
 export { default as MayLike } from "@/components/maylike/MayLike";
 export { default as MayLikeItem } from "@/components/maylike/MayLikeItem";
+export { default as Team } from "@/components/team/Team";
+export { default as TeamMember } from "@/components/team/TeamMember";

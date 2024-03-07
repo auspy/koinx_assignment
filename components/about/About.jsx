@@ -38,14 +38,14 @@ const About = ({ coin, data }) => {
   const alreadyHolding = [
     {
       img: 1,
-      heading: "Calculate your Profits",
+      heading: "Calculate your profits",
       style: {
         background: "var(--gradGreen)",
       },
     },
     {
-      img: 1,
-      heading: "Calculate your Profits",
+      img: 2,
+      heading: "Calculate your tax liability",
       style: {
         background: "var(--gradOrange)",
       },
