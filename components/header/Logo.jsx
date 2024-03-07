@@ -6,7 +6,7 @@ const Logo = () => {
     <Link href={"/"}>
       <Image
         src={"/logo.png"}
-        className=""
+        className="w-[81px] md:w-[96px] "
         alt="koinx logo"
         width={96}
         height={24}
