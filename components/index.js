@@ -18,3 +18,7 @@ export { default as Sentiment } from "@/components/sentiment/Sentiment";
 export { default as KeyEvents } from "@/components/sentiment/KeyEvents";
 export { default as HeadingWithInfo } from "@/components/HeadingWithInfo";
 export { default as AnalystEstimates } from "@/components/sentiment/AnalystEstimates";
+export { default as About } from "@/components/about/About";
+export { default as BasicPara } from "@/components/about/BasicPara";
+export { default as AlreadyHoldingItem } from "@/components/about/AlreadyHoldingItem";
+export { default as ButtonSecondary } from "@/components/buttons/ButtonSecondary";

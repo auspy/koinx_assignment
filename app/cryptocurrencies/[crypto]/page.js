@@ -1,4 +1,10 @@
-import { ButtonRow, CoinGraph, Performance, Sentiment } from "@/components";
+import {
+  About,
+  ButtonRow,
+  CoinGraph,
+  Performance,
+  Sentiment,
+} from "@/components";
 
 const page = ({ params, searchParams }) => {
   const crypto = params.crypto;
@@ -8,6 +14,7 @@ const page = ({ params, searchParams }) => {
       <ButtonRow searchParams={searchParams} />
       <Performance />
       <Sentiment />
+      <About coin={crypto} />
     </div>
   );
 };
