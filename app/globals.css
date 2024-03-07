@@ -3,31 +3,39 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  --primary: #0052fe;
+  --blueIcon: #0082ff;
+  --highlight: #0141cf;
+  --blueBg: ##e8f4fd;
+  --blueBgHero: #e2ecfe;
+  --gradBlue: linear-gradient(81.62deg, #2870ea 8.72%, #1b4aef 85.01%);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+  --bg: #eff2f5;
+  --heading: #0f1629;
+  --text: #44475b;
+  --textDark: #111827;
+  --textLight: #788f9b;
+  --subH: #768396;
+  --infoIcon: #7c7e8c;
+  --grey: #c7c8ce;
+  --headingSenti: #191c1f;
+  --textSenti: #3e5765;
+  --headingToken: #202020;
+  --textToken: #3e424a;
+  --subHHero: #5d667b;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  --green: #0fba83;
+  --textGreen: #14b079;
+  --greenIcon: #0fba83;
+  --textGreenLike: #32be88;
+  --bgGreenLike: #0ab27d0f;
+  --greenBg: #ebf9f4;
+  --gradGreen: linear-gradient(135deg, #79f1a4 0%, #0e5cad 100%);
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  --red: #f7324c;
+  --textRed: #e96975;
+  --bgRed: #ee68551a;
+
+  --gradOrange: linear-gradient(135.73deg, #ff9865 0%, #ef3031 110.55%);
+  --orange: #faa002;
 }
