@@ -22,3 +22,5 @@ export { default as About } from "@/components/about/About";
 export { default as BasicPara } from "@/components/about/BasicPara";
 export { default as AlreadyHoldingItem } from "@/components/about/AlreadyHoldingItem";
 export { default as ButtonSecondary } from "@/components/buttons/ButtonSecondary";
+export { default as Trending } from "@/components/trending/Trending";
+export { default as TrendingItem } from "@/components/trending/TrendingItem";
